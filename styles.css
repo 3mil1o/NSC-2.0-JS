@@ -1,0 +1,187 @@
+/* General Styles for All Pages */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #1E1E1E;
+    position: relative;
+}
+
+/* Background Styling */
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('Flag_of_Ecuador.png') no-repeat center center fixed;
+    background-size: cover;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+/* Header Styling */
+header {
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 5px solid #FFCC00; /* Yellow border for consistency */
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #FFCC00; /* Bright yellow for emphasis */
+    margin: 0;
+    font-weight: bold;
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    border-radius: 8px;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler-icon {
+    background-color: #1E1E1E; /* Black toggle icon for better visibility */
+}
+
+.nav-link {
+    font-weight: bold;
+    color: #1E1E1E; /* Dark gray text */
+    text-transform: uppercase; /* Modern look */
+    margin: 0 15px;
+}
+
+.nav-link:hover {
+    color: #FFCC00; /* Yellow hover effect */
+    text-decoration: underline;
+}
+
+/* Section Styling */
+section {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    max-width: 900px;
+    margin: 50px auto;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Figure Styling */
+figure img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for images */
+}
+
+figure figcaption {
+    color: red;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+/* Paragraph and List Styling */
+p {
+    color: blue;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.2rem; /* Slightly larger font for readability */
+}
+
+ul {
+    list-style: none; /* Remove bullet points */
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0; /* Add spacing between items */
+    font-weight: bold;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #FFCC00; /* Yellow for consistency */
+}
+
+ul li a:hover {
+    color: red; /* Red hover effect for contrast */
+}
+
+/* Menu Section */
+.menu-item {
+    background-color: rgba(255, 255, 255, 0.9); /* Consistent background */
+    border: 1px solid #1E1E1E; /* Subtle border */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px;
+    height: 100%; /* Ensure consistent height */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+/* Menu Image Styling */
+.menu-image {
+    max-width: 100%;
+    height: 200px; /* Fixed height for uniformity */
+    object-fit: cover; /* Crop excess image if needed */
+    border-radius: 8px;
+}
+
+/* Menu Headings */
+.menu-item h3 {
+    color: #FFCC00;
+    margin: 15px 0;
+}
+
+/* Menu Description */
+.menu-item p {
+    text-align: justify; /* Align text neatly */
+    margin: 10px 0;
+}
+
+/* Footer Styling */
+footer {
+    background-color: rgba(190, 190, 185, 0.9); /* Light gray footer */
+    text-align: center;
+    padding: 10px;
+    font-size: 1rem;
+    position: relative;
+    margin-top: 50px;
+}
+
+footer a {
+    color: #1E1E1E; /* Dark gray */
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #FFCC00; /* Yellow hover effect */
+}
+
+/* Responsive Grid */
+@media (max-width: 768px) {
+    .menu-item {
+        margin-bottom: 20px;
+    }
+
+    .nav-link {
+        margin: 5px 0;
+        text-align: center;
+    }
+
+    header h1 {
+        font-size: 2rem; /* Adjust for smaller screens */
+    }
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    border-radius: 8px;
+}
